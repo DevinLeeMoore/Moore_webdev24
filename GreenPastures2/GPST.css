@@ -1,9 +1,13 @@
- { background-color: #FFFFFF;
-    color: #666666;}
- { background-color: #00B386;
-    color: #FFFFFF;}
- {background-color: #70DBDB;}
-{color: #00664D;}
+h1 { background-color: #FFFFFF;
+    color: #666666;
+   }
+header { background-color: #00B386;
+    color: #FFFFFF;
+}
+h2 {background-color: #70DBDB;
+   }
+p {color: #00664D;
+  }
  {color: #00664D}
 {color: #70DBDB}
 
