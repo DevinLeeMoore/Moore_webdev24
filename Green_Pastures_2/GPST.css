@@ -1,17 +1,29 @@
 
-body {  background-color: red;  color: darkgray;}
+body {  
+  background-color: red; 
+  color: darkgray;
+     }
 
 
-header {  background-color: ; color: #FFFFFF;}
+header {  
+  background-color: ;
+   color: #FFFFFF;
+       }
 
 
-nav { background-color: #70DBDB;}
+nav { 
+  background-color: #70DBDB;
+}
 
 
-h2 { color: #00664D;}
+h2 { 
+  color: #00664D;
+}
 
 
-dt { color: #00664D;}
+dt {
+  color: #00664D;
+}
 
 
 .barn {  color: #70DBDB;}
