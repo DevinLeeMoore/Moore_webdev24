@@ -9,6 +9,9 @@ header {
   background-color: #00B386;
    color: #FFFFFF;
        }
+h1 {
+  margin-bottom: 0;
+}
 
 
 nav { 
