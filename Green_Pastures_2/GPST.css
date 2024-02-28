@@ -16,25 +16,43 @@ line-height: 400%;
 text-indent: 1em;
 }
 h1 {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Georgia, Times New Roman,Serif;
 }
 
 nav { 
   background-color: #70DBDB;
+font-weight: bold;
 }
-
+nav a {
+  text-decoration: none;
 
 h2 { 
   color: #00664D;
+  text-shadow: 1px, #CCCCCC;
+  font-family: Georgia, Times New Roman, Serif;
 }
 
-
-dt {
+  h3 {
+    font-family: Georgia, Times New Roman, Serif;
+ul {
+  background-image: url("Images/marker.gif")
+}
+footer{
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia, Times New Roman, Serif;
+}
+  dt {
   color: #00664D;
 }
 
 
 .barn {  
   color: #70DBDB;
+  font-weight: bold;
 }
-
+#contact {
+  font-size: 90%;
