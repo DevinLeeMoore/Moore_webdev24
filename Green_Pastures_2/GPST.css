@@ -10,8 +10,8 @@ body {
 header {  
   background-color: #00B386;
    color: #FFFFFF;
- background-image: Images("Images/pasture.png) 
-background-repeat: no-repeats;
+ background-image: url("Images/pasture.png) 
+background-repeat: no-repeat;
 	       }
 h1 {
   margin-bottom: 0;
