@@ -12,6 +12,7 @@ header {
    color: #FFFFFF;
  background-image: url("Images/pasture.png) 
 background-repeat: no-repeat;
+line-height: 400%; 
 	       }
 h1 {
   margin-bottom: 0;
