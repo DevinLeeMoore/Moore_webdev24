@@ -71,15 +71,18 @@ dt {
 #heroHome {
 height: 300px;
 background-size: 100% 100%;
+background-image: url("Images/sunsetHorse.png");
 }
 
 #heroBoard {
 height: 300px;
 background-size: 100% 100%;
+background-image: url("Images/fenceline.png.png");
 }
 
 #heroTraining {
 height: 300px;
 background-size: 100% 100%;
+background-image: url("Images/BayBella.png");
 }
   
