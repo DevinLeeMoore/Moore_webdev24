@@ -1,5 +1,5 @@
 body {
-  background-image: url("Green_Pastures_Lab3/Images/sky.png");
+  background-image: url("images/sky.png");
   background-repeat: no-repeat;
   color: #666666;
   font-family: Arial, Verdana, sans-serif;
@@ -56,7 +56,7 @@ h3 {
 }
 
 ul {
-  background-image: url("Images/marker.gif");
+  background-image: url("images/marker.gif");
 }
 
 footer {
@@ -83,14 +83,14 @@ dt {
 #heroHome {
   height: 300px;
   background-size: cover; 
-  background-image: url("Images/sunsetHorse.png");
+  background-image: url("images/sunsetHorse.png");
   background-repeat: no-repeat;
 }
 
 #heroBoard {
   height: 300px;
   background-size: cover; 
-  background-image: url("Images/fenceline.png");
+  background-image: url("images/fenceline.png");
   background-repeat: no-repeat;
 }
 
