@@ -26,7 +26,7 @@ main {
   background-color: #FFFFFF;
   min-width: 900px;
   max-width: 1500px;
-  box-shadow: 4px 4px 4px #133926; 
+  box-shadow: 4px #133926; 
 
 h1 {
   margin-bottom: 0;
