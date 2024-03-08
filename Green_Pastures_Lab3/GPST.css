@@ -84,16 +84,19 @@ dt {
   height: 300px;
   background-size: cover; 
   background-image: url("Images/sunsetHorse.png");
+  background-repeat: no-repeat;
 }
 
 #heroBoard {
   height: 300px;
   background-size: cover; 
   background-image: url("Images/fenceline.png");
+  background-repeat: no-repeat;
 }
 
 #heroTraining {
   height: 300px;
   background-size: cover;
   background-image: url("Images/BayBella.png");
+  background-repeat: no-repeat;
 }
