@@ -2,15 +2,16 @@ body {
   background-image: url("images/sky.png");
   background-repeat: no-repeat;
   color: #666666;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  background-color: #00B386;
-  color: #FFFFFF;
-  height: 60px;
-  text-align: center;
-  padding-top: 15px;
+#wrapper {
+  margin: auto;
+  width: 80%;
+  background-color: #FFFFFF;
+  min-width: 900px;
+  max-width: 2050px;
+  box-shadow: 4px #133926;
 }
 
 main {
@@ -18,36 +19,49 @@ main {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  display: block;
 }
 
-#wrapper {
-  text-align: center;
-  width: 80%;
-  background-color: #FFFFFF;
-  min-width: 900px;
-  max-width: 1500px;
-  box-shadow: 4px #133926; 
+#heroHome {
+  height: 300px;
+  background-image: url("images/sunsetHorse.png");
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
 }
+
+#heroBoard {
+  height: 300px;
+  background-image: url("images/fenceline.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#heroTraining {
+  height:300px;
+  background-image: url("images/BayBella.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #00B386;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 60px;
+  text-align: center;
+  top-padding: 15px;
+  color: #FFFFFF;
+}
+
 h1 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: Georgia, Times New Roman, serif; 
-}
-
-nav {
-  background-color: #70DBDB;
-  font-weight: bold;
-  padding-top: 10px;
-  text-align: center;
-}
-
-nav a {
-  text-decoration: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Georgia, Times New Roman, serif;
 }
 
 h2 {
   color: #00664D;
-  text-shadow: 1px 1px #CCCCCC;
+  text-shadow: 1px #CCCCCC;
   font-family: Georgia, Times New Roman, serif;
 }
 
@@ -55,8 +69,24 @@ h3 {
   font-family: Georgia, Times New Roman, serif;
 }
 
+nav {
+  margin-top: 0px;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+dt {
+  color: #00664D;
+}
+
 ul {
-  background-image: url("images/marker.gif");
+  list-style-image: url("images/marker.gif");
 }
 
 footer {
@@ -67,36 +97,10 @@ footer {
   padding: 15px;
 }
 
-dt {
-  color: #00664D;
-}
-
 .barn {
   color: #70DBDB;
-  font-weight: bold;
+  font-style: bold;
 }
-
 #contact {
   font-size: 90%;
-}
-
-#heroHome {
-  height: 300px;
-  background-size: cover; 
-  background-image: url("images/sunsetHorse.png");
-  background-repeat: no-repeat;
-}
-
-#heroBoard {
-  height: 300px;
-  background-size: cover; 
-  background-image: url("images/fenceline.png");
-  background-repeat: no-repeat;
-}
-
-#heroTraining {
-  height: 300px;
-  background-size: cover;
-  background-image: url("Images/BayBella.png");
-  background-repeat: no-repeat;
 }
